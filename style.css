@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: wheat;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15.4rem;
+    
+}
+
+h1{
+    color: #61856271;
+    font-size: 12.2rem;
+    font-family: fantasy;
+    text-shadow: -7px 0px 0px rgba(255, 0, 0, 0.534);
+    animation: anime 1s linear infinite alternate;
+}
+
+
+
+@keyframes anime{
+    from{
+        text-shadow: -7px 0px 0px rgba(255, 0, 0, 0.534);
+
+    }
+    to{
+        text-shadow: -7px 0px 0px rgba(255, 251, 0, 0.534);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn{
+    height: 2.4rem;
+    width: 8.2rem;
+    margin-left: 2.4rem;
+    border: 2px solid #00000096;
+}
+
+#signup-btn{
+    background-color: white;
+    color: black;  
+}
+
+#signup-btn:hover{
+    background-color: #ff000088;
+    color: white;  
+}
+
+
+#trynow-btn{
+    background-color: black;
+    color: white;
+}
+
+#trynow-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
